@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>widow</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="back disabel" id="bbb">
+            <div class="box-windw ">
+                <div class="exit" id="exit">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="text-head">
+                    <h1>Edit account</h1>
+                    <p>Please,put sure to every step you'll take..</p>
+                </div>
+                <div class="name">
+                    <div><label for="">Name</label></div>
+                    <div class="in-name"><input type="text" placeholder="useer-name" class="form-control"></div>
+                </div>
+    
+                <div class="box-pass">
+                    <div class="pass">
+                        <div class="passss"><label for="">Password</label>
+                        </div>
+                        <div class="in-pass">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="text-pass" placeholder="Password"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2" onclick="copy()">Copy  <i
+                                        class="fa-regular fa-copy"></i></span>
+                            </div>
+                            <div><button id="generate" class="btn btn-outline-primary">generate</button></div>
+                        </div>
+    
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="wawa()">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            I have saved this password in a safe place
+                        </label>
+                    </div>
+                </div>
+                <div class="end-button" id="ccc">
+                    <button type="button" class="btn btn-outline-secondary" id="Cancel">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="Create">Create</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary d-flex justify-content-center align-items-center edit" id="bottn" onclick="wawa()">Edit</button>
+      
+        
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
